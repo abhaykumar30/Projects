@@ -1,0 +1,18 @@
+div{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background: conic-gradient(violet,indigo,blue,green,yellow,orange,red,violet);
+    margin: 0 auto;
+    animation: round 2s linear infinite;
+}
+
+@keyframes round{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

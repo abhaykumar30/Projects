@@ -1,0 +1,58 @@
+/* styles.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    transition: background-color 0.3s ease;
+    z-index: 1000;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.nav-item a:hover {
+    color: #00f;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.content {
+    padding-top: 60px; /* Space for fixed navbar */
+}
+
+section {
+    padding: 50px;
+    height: 100vh;
+}
+
+#home { background: linear-gradient(to bottom right, #00f, #0ff); }
+#about { background: linear-gradient(to bottom right, #0f0, #ff0); }
+#services { background: linear-gradient(to bottom right, #f00, #f0f); }
+#contact { background: linear-gradient(to bottom right, #00f, #f00); }

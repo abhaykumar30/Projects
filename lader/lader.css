@@ -1,0 +1,20 @@
+.lader{
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    border: 25px solid #f3f3f3;
+    border-top: 25px solid goldenrod;
+    border-radius: 50%;
+    animation: sale 2s linear infinite;
+    font-size: 25px;
+    text-align: center;
+}
+
+@keyframes sale{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
